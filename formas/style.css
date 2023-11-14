@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+}
+
+
+.item{
+    height: 150px;
+    width: 80%;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 16px;
+}
+
+.forma{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.texto{
+    color: aliceblue;
+    font-size: 74px;
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.circulo{
+    border-radius: 50%;
+}
+
+.retangulo{
+    background-color: brown;
+    height: 50%;
+
+}
+
+.buraco{
+    border-radius: 400%;
+    height: 10%;
+    background-color: black;
+    rotate: (100deg);
+}
+
+.cair{
+    transform: rotate(45deg) translateX(180px);
+
+background-color: yellow;
+}
+
+.girar{
+    transform: rotate(1turn);
+    background-color: green;
+
+}
+
+.degrade{
+    
+    background: repeating-linear-gradient(#f69d3c, #3f87a6 50px);
+}
+
+.redondo{
+    position: static;
+    border-radius: 50%;
+}
+
+.container .redondo{
+    position: absolute;
+    border-radius: 50%;
+}
